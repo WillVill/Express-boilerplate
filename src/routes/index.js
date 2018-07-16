@@ -9,4 +9,4 @@ router.get('/', (req, res) => {
 
 router.use('/products', productRoutes);
 
-module.exports = router;
+export default router;

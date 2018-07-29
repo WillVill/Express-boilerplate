@@ -1,12 +1,9 @@
-import productRoutes from './products/products';
 import express from 'express';
 
 const router = express.Router()
 
 router.get('/', (req, res) => {
-	console.log('yolo swag monsta');
+	res.status(200).json( res.json );
 });
-
-router.use('/products', productRoutes);
 
 export default router;

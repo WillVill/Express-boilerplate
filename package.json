@@ -18,12 +18,10 @@
     "nodemon": "^1.18.2",
     "path": "^0.12.7",
     "webpack": "^4.16.1",
-    "webpack-node-externals": "^1.7.2",
-    "woocommerce-api": "^1.4.2"
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "jshint": "^2.9.5"
+    "babel-loader": "^7.1.5"
   }
 }

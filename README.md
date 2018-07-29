@@ -1,6 +1,6 @@
 # Basic Node Express server boilerplate
 
-Inludes:
+## Inludes:
 - WebPack config to build project
 - Gulp task to watch and build project automatically. Gulp task uses WebPack to watch project and build using WebPack. The run project is the built project located in the dist folder.
 - Uses Yarn.

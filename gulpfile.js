@@ -8,7 +8,7 @@ const webpackConfig = require('./webpack.config.js');
 gulp.task('build', function(done) {
   webpack(webpackConfig).run(function(err, stats) {
     if(err) {
-      console.log('Error', err);
+      console.log('Build error', err);
     }
     else {
       console.log(stats.toString());
